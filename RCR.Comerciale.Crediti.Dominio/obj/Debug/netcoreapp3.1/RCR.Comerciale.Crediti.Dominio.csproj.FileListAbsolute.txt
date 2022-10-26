@@ -1,0 +1,10 @@
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\bin\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.deps.json
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\bin\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.dll
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\bin\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.pdb
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.AssemblyInfoInputs.cache
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.AssemblyInfo.cs
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.dll
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.pdb
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Dominio\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Dominio.csproj.AssemblyReference.cache

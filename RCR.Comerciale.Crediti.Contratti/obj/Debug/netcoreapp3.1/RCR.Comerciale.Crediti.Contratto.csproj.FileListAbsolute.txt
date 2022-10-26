@@ -1,0 +1,5 @@
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Contratti\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Contratto.csproj.AssemblyReference.cache
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Contratti\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Contratto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Contratti\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Contratto.AssemblyInfoInputs.cache
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Contratti\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Contratto.AssemblyInfo.cs
+C:\Users\manue\source\repos\SOAP\RCR.Comerciale.Crediti.Contratti\obj\Debug\netcoreapp3.1\RCR.Comerciale.Crediti.Contratto.csproj.CoreCompileInputs.cache

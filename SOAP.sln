@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{ABFEA16F-C2FA-4566-A6EF-905D1FCB2387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{46748F7A-EE68-436F-96C2-44A200E42F72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infraestructure Layer", "infraestructure Layer", "{7336BFB1-2F9B-48D8-A1F1-39CACEAB9B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCR.Commerciale.Crediti.Contratti", "RCR.Commerciale.Crediti.Contratti\RCR.Commerciale.Crediti.Contratti.csproj", "{C11D0E66-6991-480B-8891-C57A47F26BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCR.Commerciale.Crediti.Dominio", "RCR.Commerciale.Crediti.Dominio\RCR.Commerciale.Crediti.Dominio.csproj", "{5B661C10-3398-45EC-B958-2762AA1A796E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCR.Commerciale.Crediti.WcfService", "RCR.Commerciale.Crediti.WcfService\RCR.Commerciale.Crediti.WcfService.csproj", "{74D3B3ED-6758-4E1C-9D0C-675BC8884924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCR.Commerciale.Crediti.Implementation", "RCR.Commerciale.Crediti.Implementation\RCR.Commerciale.Crediti.Implementation.csproj", "{5A56E2E3-E29A-432C-8A02-B0A5E920C0D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCR.Commerciale.Crediti.Facciata", "RCR.Commerciale.Crediti.Facciata\RCR.Commerciale.Crediti.Facciata.csproj", "{B427EFA7-4658-46A4-A034-5C022139B747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCR.Commerciale.Crediti.ContrattoRepository", "RCR.Commerciale.Crediti.ContrattoRepository\RCR.Commerciale.Crediti.ContrattoRepository.csproj", "{C4AE1549-E28F-4080-A596-91CB82D1F6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCR.Commerciale.Crediti.SqlRepository", "RCR.Commerciale.Crediti.SqlRepository\RCR.Commerciale.Crediti.SqlRepository.csproj", "{92D000F4-D0D5-4F50-B1FB-8EFD527CC399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C11D0E66-6991-480B-8891-C57A47F26BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11D0E66-6991-480B-8891-C57A47F26BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11D0E66-6991-480B-8891-C57A47F26BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11D0E66-6991-480B-8891-C57A47F26BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B661C10-3398-45EC-B958-2762AA1A796E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B661C10-3398-45EC-B958-2762AA1A796E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B661C10-3398-45EC-B958-2762AA1A796E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B661C10-3398-45EC-B958-2762AA1A796E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D3B3ED-6758-4E1C-9D0C-675BC8884924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D3B3ED-6758-4E1C-9D0C-675BC8884924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D3B3ED-6758-4E1C-9D0C-675BC8884924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D3B3ED-6758-4E1C-9D0C-675BC8884924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A56E2E3-E29A-432C-8A02-B0A5E920C0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A56E2E3-E29A-432C-8A02-B0A5E920C0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A56E2E3-E29A-432C-8A02-B0A5E920C0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A56E2E3-E29A-432C-8A02-B0A5E920C0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B427EFA7-4658-46A4-A034-5C022139B747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B427EFA7-4658-46A4-A034-5C022139B747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B427EFA7-4658-46A4-A034-5C022139B747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B427EFA7-4658-46A4-A034-5C022139B747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AE1549-E28F-4080-A596-91CB82D1F6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AE1549-E28F-4080-A596-91CB82D1F6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AE1549-E28F-4080-A596-91CB82D1F6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AE1549-E28F-4080-A596-91CB82D1F6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D000F4-D0D5-4F50-B1FB-8EFD527CC399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D000F4-D0D5-4F50-B1FB-8EFD527CC399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D000F4-D0D5-4F50-B1FB-8EFD527CC399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D000F4-D0D5-4F50-B1FB-8EFD527CC399}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C11D0E66-6991-480B-8891-C57A47F26BAB} = {ABFEA16F-C2FA-4566-A6EF-905D1FCB2387}
+		{5B661C10-3398-45EC-B958-2762AA1A796E} = {46748F7A-EE68-436F-96C2-44A200E42F72}
+		{74D3B3ED-6758-4E1C-9D0C-675BC8884924} = {ABFEA16F-C2FA-4566-A6EF-905D1FCB2387}
+		{5A56E2E3-E29A-432C-8A02-B0A5E920C0D4} = {ABFEA16F-C2FA-4566-A6EF-905D1FCB2387}
+		{B427EFA7-4658-46A4-A034-5C022139B747} = {46748F7A-EE68-436F-96C2-44A200E42F72}
+		{C4AE1549-E28F-4080-A596-91CB82D1F6ED} = {46748F7A-EE68-436F-96C2-44A200E42F72}
+		{92D000F4-D0D5-4F50-B1FB-8EFD527CC399} = {7336BFB1-2F9B-48D8-A1F1-39CACEAB9B8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6DD5351-6997-4324-91F7-A8B4F13ECE2E}
+	EndGlobalSection
+EndGlobal

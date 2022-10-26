@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RCR.Comerciale.Crediti.Dominio/1.0.0": {
+        "runtime": {
+          "RCR.Comerciale.Crediti.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RCR.Comerciale.Crediti.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
