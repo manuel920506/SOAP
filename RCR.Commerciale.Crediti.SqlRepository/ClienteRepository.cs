@@ -23,6 +23,7 @@ namespace RCR.Commerciale.Crediti.SqlRepository
         }
 
         public IEnumerable<Cliente> GetListClienti()
+
         {
             using (IDbConnection connessione = new SqlConnection(ConnessioneRepository.GetStringConessione()))
             {
