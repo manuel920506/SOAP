@@ -8,6 +8,7 @@ namespace RCR.Commerciale.Crediti.Contratti
     public interface IClienteService
     {
         [OperationContract]
+        [FaultContract(typeof(Error))]
         Cliente GetCliente(int Id);
         [OperationContract]
         IEnumerable<Cliente> GetListClienti();

@@ -3,7 +3,6 @@ C:\Users\manue\source\repos\SOAP\RCR.Commerciale.Crediti.Dominio\bin\Debug\RCR.C
 C:\Users\manue\source\repos\SOAP\RCR.Commerciale.Crediti.Dominio\obj\Debug\RCR.Commerciale.Crediti.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\manue\source\repos\SOAP\RCR.Commerciale.Crediti.Dominio\obj\Debug\RCR.Commerciale.Crediti.Dominio.dll
 C:\Users\manue\source\repos\SOAP\RCR.Commerciale.Crediti.Dominio\obj\Debug\RCR.Commerciale.Crediti.Dominio.pdb
-C:\Users\manue\source\repos\SOAP\RCR.Commerciale.Crediti.Dominio\obj\Debug\RCR.Commerciale.Crediti.Dominio.csproj.AssemblyReference.cache
 C:\Users\m.rodriguez\Documents\SOAP\RCR.Commerciale.Crediti.Dominio\bin\Debug\RCR.Commerciale.Crediti.Dominio.dll
 C:\Users\m.rodriguez\Documents\SOAP\RCR.Commerciale.Crediti.Dominio\bin\Debug\RCR.Commerciale.Crediti.Dominio.pdb
 C:\Users\m.rodriguez\Documents\SOAP\RCR.Commerciale.Crediti.Dominio\obj\Debug\RCR.Commerciale.Crediti.Dominio.csproj.CoreCompileInputs.cache
