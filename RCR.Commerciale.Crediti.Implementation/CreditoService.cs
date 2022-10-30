@@ -1,35 +1,56 @@
 ﻿using RCR.Commerciale.Crediti.Contratti;
 using RCR.Commerciale.Crediti.Dominio;
+using RCR.Commerciale.Crediti.Facciata;
 using System;
-using System.Collections.Generic; 
+using System.Collections.Generic;
+using System.ServiceModel;
 
 namespace RCR.Commerciale.Crediti.Implementation
 {
     public class CreditoService : ICreditiService
     {
-        bool ICreditiService.EliminaCredito(int Id)
+        bool ICreditiService.EliminaCredito(string Id)
         {
             throw new NotImplementedException();
         }
 
-        Credito ICreditiService.GetCredito(int Id)
+        public Credito GetCredito(string Id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (CreditoFacciata credito = new CreditoFacciata())
+                {
+                    return credito.GetCredito(Id);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException<Error>(new Error() { ErrorCode = "10001", Description = "Exception Administrata", Message = ex.Message });
+            }
         }
 
-        IEnumerable<Credito> ICreditiService.GetListCredito()
+        public IEnumerable<Credito> GetListCredito()
         {
-            throw new NotImplementedException();
+            using (CreditoFacciata credito = new CreditoFacciata())
+            {
+                return credito.GetListCredito();
+            }
         }
 
-        Credito ICreditiService.SaveCredito(Credito credito)
+        public Credito SaveCredito(Credito new_credito)
         {
-            throw new NotImplementedException();
+            using (CreditoFacciata credito = new CreditoFacciata())
+            {
+                return credito.SaveCredito(new_credito);
+            }
         }
 
-        Credito ICreditiService.UpdateCredito(Credito credito)
+        public Credito UpdateCredito(Credito new_credito)
         {
-            throw new NotImplementedException();
+            using (CreditoFacciata credito = new CreditoFacciata())
+            {
+                return credito.UpdateCredito(new_credito);
+            }
         }
     }
 }

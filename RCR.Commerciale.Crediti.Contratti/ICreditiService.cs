@@ -10,12 +10,12 @@ namespace RCR.Commerciale.Crediti.Contratti
     {
         [OperationContract]
         [WebGet(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/GetListCredito", BodyStyle = WebMessageBodyStyle.Bare)]
-        [FaultContract(typeof(Error))]
         IEnumerable<Credito> GetListCredito();
 
-        [OperationContract]
-        [WebGet(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/GetCredito/{Id}", BodyStyle = WebMessageBodyStyle.Bare)] 
-        Credito GetCredito(int Id);
+        [OperationContract] 
+        [WebGet(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/GetCredito/{Id}", BodyStyle = WebMessageBodyStyle.Bare)]
+        [FaultContract(typeof(Error))]
+        Credito GetCredito(string Id);
 
         [OperationContract]
         [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, Method = "POST", UriTemplate = "/SaveCredito", BodyStyle = WebMessageBodyStyle.Bare)]
@@ -27,6 +27,6 @@ namespace RCR.Commerciale.Crediti.Contratti
 
         [OperationContract]
         [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, Method = "DELETE", UriTemplate = "/EliminaCredito/{Id}", BodyStyle = WebMessageBodyStyle.Bare)]
-        bool EliminaCredito(int Id);
+        bool EliminaCredito(string Id);
     }
 }
